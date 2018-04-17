@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "348127489756",
+    "firebase_url": "https://spotwifiapplication-2fc1b.firebaseio.com",
+    "project_id": "spotwifiapplication-2fc1b",
+    "storage_bucket": "spotwifiapplication-2fc1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348127489756:android:574fdd9d66cd78d5",
+        "android_client_info": {
+          "package_name": "com.coalescebd.spotwifi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348127489756-3b6jqcriq7pe9u6di5bmbp5tb0tbv1s3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coalescebd.spotwifi",
+            "certificate_hash": "1cb760f9d222f10067b9d5b99d98d17bcde16f51"
+          }
+        },
+        {
+          "client_id": "348127489756-s7lph122j9f3peocqsmpou3uf71ueq73.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coalescebd.spotwifi",
+            "certificate_hash": "3e13945545cdb093e65db2fc9d581b8d743a568e"
+          }
+        },
+        {
+          "client_id": "348127489756-2v66h8j66qnp8ki14rgkvq3ujkr6sppe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh0SNthSGzZsijDI7ihYuLcjkFjpsWcDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348127489756-2v66h8j66qnp8ki14rgkvq3ujkr6sppe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348127489756:android:0e5370752c82d347",
+        "android_client_info": {
+          "package_name": "com.coalescebd.spotwifiadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348127489756-284hn8fbljjhne9159j33e7co583pnh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coalescebd.spotwifiadmin",
+            "certificate_hash": "3e13945545cdb093e65db2fc9d581b8d743a568e"
+          }
+        },
+        {
+          "client_id": "348127489756-2v66h8j66qnp8ki14rgkvq3ujkr6sppe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh0SNthSGzZsijDI7ihYuLcjkFjpsWcDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348127489756-2v66h8j66qnp8ki14rgkvq3ujkr6sppe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

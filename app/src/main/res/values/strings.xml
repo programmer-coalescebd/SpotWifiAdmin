@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spot Wifi Admin</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="call_admin">Call Admin</string>
+    <string name="email">email</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="list_of_products_to_be_delivered">List of Products to be Delivered:</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingRight="@dimen/_20sdp"
+    android:gravity="center_vertical"
+    tools:context=".IndividualOrderView">
+    <TextView
+        android:id="@+id/txt_customerBookingId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/offwhite"
+        />
+
+    <TextView
+        android:id="@+id/txt_customerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:textColor="@color/offwhite"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/txt_customerPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:textColor="@color/offwhite"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/txt_customerLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:textColor="@color/offwhite"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/txt_customerProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:textColor="@color/offwhite"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/txt_customerPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:textColor="@color/offwhite"
+        android:textSize="@dimen/_15ssp" />
+
+    <TextView
+        android:id="@+id/txt_customerDeliveryStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:textColor="@color/offwhite"
+        android:textSize="@dimen/_15ssp" />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b1"
+    tools:context=".Register">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/txt_nameDuringRegistration"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawableStart="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txt_phoneDuringRegistration"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="number"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/txt_emailDuringRegistration"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/txt_passwordDuringRegistration"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:prompt="@string/spinner_title" />
+
+        <Button
+            android:id="@+id/btn_signupFromSignUpPage"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonstyleblue"
+            android:text="@string/register"
+            android:textColor="@color/offwhite"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:drawableEnd="@drawable/ic_send_black_24dp" />
+    </LinearLayout>
+</LinearLayout>
